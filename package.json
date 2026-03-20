@@ -1,0 +1,34 @@
+{
+  "name": "hkschoolplace",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "sync:school-master": "node scripts/sync/run-source.js school-master --write",
+    "sync:school-master:dry-run": "node scripts/sync/run-source.js school-master --dry-run",
+    "sync:vacancy": "node scripts/sync/run-source.js vacancy --write",
+    "sync:vacancy:dry-run": "node scripts/sync/run-source.js vacancy --dry-run",
+    "sync:stale": "node scripts/sync/run-stale-check.js --write",
+    "sync:stale:dry-run": "node scripts/sync/run-stale-check.js --dry-run",
+    "sync:recommend-unmatched": "node scripts/sync/recommend-unmatched.js",
+    "sync:promote-unmatched": "node scripts/sync/promote-unmatched.js",
+    "sync:finalize-unmatched": "node scripts/sync/finalize-manual-aliases.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.49.4",
+    "next": "15.3.0",
+    "pdf-parse": "^2.4.5",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.14.0",
+    "@types/react": "19.0.12",
+    "@types/react-dom": "19.0.5",
+    "typescript": "5.8.3"
+  }
+}

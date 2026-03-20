@@ -1,0 +1,35 @@
+[
+  {
+    "source": "edb",
+    "source_url": "https://example.edu.hk/edb/vacancies",
+    "school_name": "Joy Think KG",
+    "stage": "kg",
+    "district": "九龍城",
+    "grade": "K1",
+    "status": "available",
+    "count": 6,
+    "effective_date": "2026-03-18"
+  },
+  {
+    "source": "edb",
+    "source_url": "https://example.edu.hk/edb/vacancies",
+    "school_name": "St. Paul's Kindergarten",
+    "stage": "kg",
+    "district": "灣仔",
+    "grade": "K1",
+    "status": "full",
+    "count": 0,
+    "effective_date": "2026-03-18"
+  },
+  {
+    "source": "edb",
+    "source_url": "https://example.edu.hk/edb/vacancies",
+    "school_name": "ABC KG (分校)",
+    "stage": "kg",
+    "district": "九龍城",
+    "grade": "K2",
+    "status": "waiting",
+    "count": null,
+    "effective_date": "2026-03-18"
+  }
+]
